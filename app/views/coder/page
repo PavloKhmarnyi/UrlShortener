@@ -1,0 +1,7 @@
+<%= form_tag '/' do %>
+    <%= label_tag :Enter_url %><br />
+    <%= text_field_tag :inputUrl, @inputUrl %>
+    <%= submit_tag "Click" %>
+<% end %>
+<%= label_tag :Long_url_ %><%= @longUrl%><br />
+<%= label_tag :Short_url_ %><%= @shortUrl%>
